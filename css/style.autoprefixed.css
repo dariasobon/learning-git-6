@@ -24,9 +24,12 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center; }
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center; }
   header h1 {
     text-shadow: 2px 2px 5px #444;
     font-size: 5vw;
